@@ -1,27 +1,36 @@
-This Jupyter Notebook file, Cleaned_Data.ipynb, is used for cleaning road traffic accident statistics data.
+# Data Analysis
 
-File Contents
-The Cleaned_Data.ipynb file contains the following:
+This repository contains a Python notebook for data analysis using statistical and machine learning methods.
 
-Reading the CSV File: First, the CSV file is read using the read_csv() function from the pandas library. This function allows for reading CSV files with the appropriate format.
+## Installation
 
-Removing Invalid Rows: Using the dropna() function from the pandas library, rows with invalid or missing values are removed.
+To run this notebook, you need to install the required libraries. Use the following command to install the libraries:
 
-Changing Data Types: Using functions such as astype() from the pandas library, different data types, such as strings, can be converted to integers.
+```
+pip install pandas matplotlib seaborn plotly
+```
 
-Cleaning Duplicate Data: Using the drop_duplicates() function from the pandas library, duplicate data in specified columns is removed.
+## Usage
 
-Cleaning Inappropriate Data: Using functions like str.contains() from the pandas library, data that does not follow specific patterns or violates certain rules can be identified and potentially removed.
+Open the notebook and run each cell in order. In this notebook, the data analysis is performed in the following steps:
 
-Cleaning Outliers: Using statistical methods such as outliers detection, data points that are considered outliers or unusual are identified and examined for potential removal.
+1. Importing the necessary libraries:
+   - pandas: for data manipulation and analysis.
+   - matplotlib: for plotting graphs and plots.
+   - seaborn: for advanced data visualization and plotting aesthetically pleasing plots.
+   - plotly: for interactive graphing and plotting.
 
-Displaying Data: Using display functions such as head() and tail() from the pandas library, a portion of the cleaned data is displayed.
+2. Reading the CSV file containing the data:
+   - The desired file should be named "cleaned_data.csv" and located in the same directory as the notebook.
 
-Important Notes
-This Cleaned_Data.ipynb file is used for cleaning road traffic accident statistics data.
+3. Displaying a few initial rows of the data:
+   - To examine the structure and content of the data.
 
-The relevant CSV file has the name "dft-road-casualty-statistics-casualty-provisional-mid-year-unvalidated-2022.csv".
+4. Providing information about the data:
+   - Analyzing the data features and examining distributions, means, variances, etc.
 
-The pandas and matplotlib.pyplot libraries are used in this file for data cleaning operations and visualization purposes.
+5. Using statistical methods:
+   - Employing regression analysis, hypothesis testing, and probability distributions to investigate relationships and interpret the data.
 
-Please ensure that the required CSV file is in the correct path and that the necessary libraries are installed before executing the Cleaned_Data.ipynb file.
+6. Applying machine learning methods:
+   - Utilizing machine learning algorithms such as Support Vector Machines (SVM) and Deep Neural Networks for pattern recognition and uncovering hidden relationships in the data.
